@@ -3,7 +3,7 @@
   "private": true,
   "description": "A simple starter to get up and developing quickly with Gatsby",
   "version": "0.1.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "author": "Natália Azevedo <naaatalia.azevedo@live.com>",
   "dependencies": {
     "algoliasearch": "^4.13.0",
     "dotenv": "^16.0.0",
@@ -44,7 +44,7 @@
   },
   "devDependencies": {
     "prettier": "2.8.1",
-    "styled-icons": "^10.46.0"
+    "styled-icons": "^10.45.0"
   },
   "keywords": [
     "gatsby"
