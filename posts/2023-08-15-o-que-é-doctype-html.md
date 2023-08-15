@@ -1,0 +1,49 @@
+---
+title: O que é DOCTYPE html?
+description: O que é? Como funciona? Qual sua utilidade?
+date: 2023-08-14 10:32:23
+thumbnail: assets/img/doctype-html5.jpg
+category: html
+background: "#EB7728"
+---
+# O que é `<!DOCTYPE html>`?
+
+Sabe aquela primeira linha, que está escrito Doctype, e ninguém soube te explica? Então, hoje você vai aprender o que realmente é!
+
+O Doctype foi criado para que os navegadores saibam qual versão do HTML está sendo utilizada no arquivo. Pois, ao contário do que muitos pensam, <!DOCTYPE html> não é uma tag de marcação HTML. 
+
+## Quando devemos declarar o `<!DOCTYPE html>`?
+
+É recomendado que declaremos o Doctype no início do documento, antes de qualquer tag HTML.
+
+A versão mais atual do HTML é a 5, e a declaração do **Doctype** é a seguinte:
+
+
+
+```
+<!DOCTYPE html>
+```
+
+## É obrigatório declarar o Doctype?
+
+Não, mas é recomendado que declare, pois é uma boa prática, além de garantir a funcionalidade e a segurança do seu site. 
+
+### Se eu não declarar, o que acontece com meu site?
+
+Se não for declarado, existe um recurso do navegador chamado quirks mode. O quirks mode funciona como um modo de compatibilidade, onde o navegador tenta renderizar o seu site da melhor forma possível, mas pode acontecer de não funcionar corretamente. Caso não seja compatível com a versão seleciona por ele.
+
+```
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Exemplo</title>
+  </head>
+  <body>
+    <h1>Olá Mundo!</h1>
+  </body>
+</html>
+```
+
+### E se eu estiver criando um Email Marketing, devo declarar?
+
+Sim! Quando você estiver criando um email marketing, é recomendado que você utilize o `<!DOCTYPE html>` para que o seu email seja renderizado corretamente em todos os navegadores.
