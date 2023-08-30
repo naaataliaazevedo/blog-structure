@@ -43,7 +43,7 @@
     "yarn": "^1.22.19"
   },
   "devDependencies": {
-    "prettier": "2.8.8",
+    "prettier": "3.0.3",
     "styled-icons": "^10.45.0"
   },
   "keywords": [
